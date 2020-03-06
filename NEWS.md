@@ -1,6 +1,7 @@
 # dbplyr (dev)
 
 * Adds `db_pivot_wider()` generic. It aligns with `tidyr::pivot_wider()` (#252)
+# dbplyr (development version)
 
 # dbplyr 1.4.2
 
