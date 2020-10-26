@@ -7,6 +7,7 @@ development:
   mode: auto
 
 home:
+  title: A dplyr backend for databases
   strip_header: true
 
 reference:
@@ -16,8 +17,22 @@ reference:
   - arrange.tbl_lazy
   - copy_to.src_sql
   - collapse.tbl_sql
+  - distinct.tbl_lazy
   - do.tbl_sql
+  - filter.tbl_lazy
+  - head.tbl_lazy
+  - group_by.tbl_lazy
   - inner_join.tbl_lazy
+  - intersect.tbl_lazy
+  - mutate.tbl_lazy
+  - pull.tbl_sql
+  - select.tbl_lazy
+  - slice_min.tbl_lazy
+  - summarise.tbl_lazy
+
+- title: Built-in database backends
+  contents:
+  - starts_with("backend")
 
 - title: Database connection
   contents:
@@ -35,6 +50,14 @@ reference:
   - sql_expr
   - translate_sql
   - window_order
+
+- title: dbplyr Backends
+  desc: Documentation for authors of new dbplyr backends
+  contents:
+  - db-io
+  - db-misc
+  - db-sql
+  - db-quote
 
 navbar:
   components:
